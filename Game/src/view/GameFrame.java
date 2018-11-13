@@ -120,6 +120,7 @@ public class GameFrame extends JFrame {
         // sehingga sel akan terlihat bergerak ke kanan
         for (int i = 0; i < getTempatPanel().getTempat().getDaftarSel().size(); i++) {
             // set posisiX yang baru
+            if (getTempatPanel().getTempat().getDaftarSel().get(i).getNilai() == '@');
             getTempatPanel().getTempat().getDaftarSel().get(i).geserKanan();
         }
         // gambar ulang tempat Panel
@@ -131,6 +132,7 @@ public class GameFrame extends JFrame {
         // sehingga sel akan terlihat bergerak ke kanan
         for (int i = 0; i < getTempatPanel().getTempat().getDaftarSel().size(); i++) {
             // set posisiX yang baru
+            if (getTempatPanel().getTempat().getDaftarSel().get(i).getNilai() == '@');
             getTempatPanel().getTempat().getDaftarSel().get(i).geserKiri();
         }
         // gambar ulang tempat Panel
@@ -142,6 +144,7 @@ public class GameFrame extends JFrame {
         // sehingga sel akan terlihat bergerak ke kanan
         for (int i = 0; i < getTempatPanel().getTempat().getDaftarSel().size(); i++) {
             // set posisiX yang baru
+            if (getTempatPanel().getTempat().getDaftarSel().get(i).getNilai() == '@');
             getTempatPanel().getTempat().getDaftarSel().get(i).geserAtas();
         }
         // gambar ulang tempat Panel
@@ -153,6 +156,7 @@ public class GameFrame extends JFrame {
         // sehingga sel akan terlihat bergerak ke kanan
         for (int i = 0; i < getTempatPanel().getTempat().getDaftarSel().size(); i++) {
             // set posisiX yang baru
+            if (getTempatPanel().getTempat().getDaftarSel().get(i).getNilai() == '@');
             getTempatPanel().getTempat().getDaftarSel().get(i).geserBawah();
         }
         // gambar ulang tempat Panel
