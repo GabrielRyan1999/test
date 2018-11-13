@@ -91,17 +91,29 @@ public class Sel {
             kolom--;
         }
     }
-
+   
     /**
      * Fungsi untuk mengecek sel ada di batas atas
-     */
+     */ 
+    public void geserAtas(){
+        if (isBatasAtas() == false) {
+            baris--;
+        }
+    }
+
     public boolean isBatasAtas() {
         return false;
     }
 
     /**
      * Fungsi untuk mengecek sel ada di batas bawah
-     */
+     */ 
+    public void geserBawah(){
+        if (isBatasBawah()== false) {
+            baris++;
+        }
+    }
+
     public boolean isBatasBawah() {
         return false;
     }
